@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<style>
+		
+			body
+			{
+					padding:0;
+					margin:0;
+					height:100%; }
+						
+			#page {
+					min-height:100%;
+					position:relative;
+					height:100%; }
+					
+			header {
+					background-color:#990000;
+					min-height:100px;
+					width:100%;
+					position:relative; }
+					
+			#body {
+					width: 1290px;
+					height: 1000px;
+					margin: 0px auto;
+					background-color: #e3dbc4; }
+					
+			#footer {
+					position:relative;
+					width:100%;
+					bottom:0;
+					height:50px;
+					background-color: #990000; }
+
+			#title {
+					position: relative;
+					margin-left: 225px;
+					top: 10px;}
+
+			nav
+			{
+					position:absolute;
+					top:100px;
+					left:0;
+					right:0;
+					bottom:0;
+					background-color:#003689;
+					min-width:800px;
+					text-align:left;
+					height:20px;
+					padding:10px 20px;
+			}
+			
+			
+			nav a
+			{
+					font-size:14px;
+					font-family: Franklin Gothic Book; 
+					margin:0px;
+					height:20px;
+					padding:12px 10px;
+					color:#fff;
+					text-decoration:none;
+			}
+			
+			#links {
+				margin-left: 225px;}
+			
+			nav a:hover {
+					background-color: #333; }
+					
+			p {
+			font-family: Franklin Gothic Book;
+			font-size: 35px;
+			color: #990000;
+			text-align: center; }
+			
+			table, th, td { 
+			border: 1px solid #003689; 
+			border-collapse: collapse; }
+			
+			td.mapped {
+			padding: 0.5cm 0.25cm; }
+			
+			<!-- td.featured { 
+			padding: 0.5cm 3cm 0cm 3cm; } 
+			
+			p.featext { 
+			margin-bottom: 60px;} -->
+			
+		</style>
+	</head>
+	
+	<body>
+    
+		<div id="page">
+		
+				<header>
+						
+					<div id="title">
+						<a href="#"><img src="Pictures/logo2.png" width="290" height="69.5"></a>
+					</div>
+					
+					<nav>
+							<div id="links">
+							<a href="#">Home</a>
+							<a href="#">About</a>
+							<a href="#">Write a Review</a>
+							<a href="#">Student Activities Center</a>
+							<a href="#">Student Union</a>
+							<a href="#">West Side Dining</a>
+							<a href="#">Jasmine</a>
+							<a href="#">Roth Café</a>
+							<a href="#">Tabler Center</a>
+							
+							</div>
+					</nav>
+				</header>
+		
+				<div id="body">
+					<br>
+					<br>
+						<table>
+								<tr>
+									<td class="mapped">
+									
+									<img src="Pictures/map.jpg" alt="" usemap="#Map"/>
+									
+									<map name="Map" id="Map">
+									
+									<area alt="" title="Roth Café" href="#" shape="rect" coords="467,604,492,629" />
+									<area alt="" title="The SAC" href="#" shape="rect" coords="413,341,474,384" />
+									<area alt="" title="The Union" href="#" shape="rect"coords="509,117,453,168" />
+									<area alt="" title="Tabler Center" href="#" shape="rect" coords="331,694,297,720" />
+									<area alt="" title="West Side Dining" href="#" shape="rect" coords="103,484,67,513" />
+									<area alt="Jasmine" title="" href="#" shape="rect" coords="694,175,596,232" />
+									
+									</map>
+									</td>
+									
+									<td class="featured">
+								
+									<p class="featext"><b>FEATURED:</b></p>
+									<p><img src="Pictures/1.jpg" width="300px" height="225px"</img></p>
+									<p><img src="Pictures/2.jpg" width="300px" height="225px"</img></p>
+									<p><img src="Pictures/3.jpg" width="300px" height="225px"</img></p>
+									
+									</td>
+									
+								<tr>
+					</table>
+				</div>
+				<div id="footer"></div>
+				 
+		</div>
+		
+    </body>
+
+</html>
